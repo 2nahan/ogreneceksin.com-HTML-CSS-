@@ -1,0 +1,89 @@
+
+#marka{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 23px;
+}
+#mark2{
+    font-size: 15px;
+    font-family: 'Jura', sans-serif;
+}
+a{
+    font-size: 18px;
+    color: rgb(12, 9, 9);
+}
+a:hover{
+    text-decoration: none;
+    transition: color 0.3s linear;
+    color: rgb(12, 1, 1);
+    
+}
+body{
+    margin-top: 45px;
+}
+
+    
+
+@media(min-width: 576px){
+    .kart1{
+        width: 90%;
+        
+       
+    }
+    
+}
+@media(min-width: 992px){
+    .kart1{
+        width: 45%; display: inline-block;
+        
+    }
+    
+}
+
+@media(min-width: 576px){
+    .kart2{
+        width: 465px;
+       
+    } 
+}
+@media(min-width: 992px){
+    .kart2{
+        width: 45%; display: inline-block;
+        
+        
+    }
+}
+.ara{
+    margin-top: 49px;
+}
+li{
+    margin-bottom: 5px;
+   
+}tbody:hover{
+    cursor: pointer;
+}
+.navbar-nav{
+    font-weight: 600;
+    
+    
+}
+.nav-item:hover{
+    
+    opacity: 0.8;
+}
+.card-header{
+    background-color: rgba(61, 61, 248, 0.171);
+    font-weight: 500;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+}
+i{
+    font-weight: 500;
+}
+.card-text{
+    text-indent: 9px;
+}
+.card-title{
+    font-weight: 600;
+    font-size: 30px;
+}
